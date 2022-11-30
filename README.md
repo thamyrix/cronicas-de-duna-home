@@ -4,11 +4,11 @@ Esse é um projeto desenvolvido por mim, Thamyris Szymanski e se trata de um sit
 
 
 
-![](./screenshot1.jpg)
+![](./screenshot1.JPG)
 
-![](./screenshot2.jpg)
+![](./screenshot2.JPG)
 
-![](./screenshot3.jpg)
+![](./screenshot3.JPG)
 
 
 
