@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Marcellus&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(DUNA.png);
+    /* height: 700px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.header-logo {
+    height: 80px;
+}
+
+
+
+.nav-item {
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #DEC2A9;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content-title {
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #DEC2A9;
+}
+
+.main-content-image {
+    height: 400px;
+    width: 600px;
+    margin-top: -40px;
+}
+
+.secondary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 600px;
+    padding-top: 40px;
+}
+
+.secondary-content-paragraph {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #DEC2A9;
+    text-align: center;
+    line-height: 30px;
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 70px;
+    }
+    .main-content-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .main-content-title {
+        font-size: 35px;
+    }
+    .main-content-image {
+        height: 100%;
+        width: 350px;
+    }
+    .secondary-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 300px;
+    }
+}
